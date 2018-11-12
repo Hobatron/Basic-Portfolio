@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.navHead{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
+    border-color: #cccccc;
+    border-bottom-style: solid;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+header{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 28px;
+    width: 160px;
+    background-color: #4aaaa5;
+    color: #fff;
+}
+
+body {
+    background-color: #eee;
+}
+
+.topnav{
+    float: right;
+    margin: 15px;
+    margin-top: 30px;
+}
+
+#topnav_Index{
+    right: ;
+}
+#topnav_Portfolio{
+    right: ;
+}
+#topnav_Contact{
+    right: ;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:link {
+    color: #777;
+}
+
+a:visited {
+    color: #777;
+}
+
+h1{
+    color:#4aaaa5;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-color: #cccccc;
+}
+
+img {
+    width: 190px;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 5px;
+
+}
+
+
+
+/* Testing area */
+
+#testWrap {
+    display: flex;
+}
+
+#midDimWrap {
+    display: flex;
+    justify-content: center;
+    color: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+
+#midDim{
+    margin-top: 38px;
+    padding: 30px;
+    width: 960px;
+    background-color: #fff;
+}
