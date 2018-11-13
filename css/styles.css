@@ -15,20 +15,30 @@ body{
 header{
     font-weight: bold;
     font-size: 20px;
-    padding: 27px;
     margin-right: 499px;
-    width: 160px;
+    text-align: center;
+    width: 210px;
+    height: 75px;
+    line-height: 75px;
     background-color: #4aaaa5;
     color: #fff;
 }
+span{
+    display: inline;
+    vertical-align: middle;
+    line-height: normal;
+}
+
 
 body {
     background-color: #eee;
 }
 
 .topnav{
+    position: relative;
     margin: 15px;
     margin-top: 30px;
+    left: 16px;
 }
 
 a{
@@ -52,6 +62,10 @@ h1{
 }
 
 img {
+    width: 185px;
+}
+
+#imgHead {
     width: 190px;
     float: left;
     padding-right: 10px;
