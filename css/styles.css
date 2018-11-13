@@ -4,7 +4,6 @@ body{
 }
 
 .navHead{
-    display: flex;
     width: 100%;
     height: 75px;
     background-color: #fff;
@@ -16,7 +15,8 @@ body{
 header{
     font-weight: bold;
     font-size: 20px;
-    padding: 28px;
+    padding: 27px;
+    margin-right: 499px;
     width: 160px;
     background-color: #4aaaa5;
     color: #fff;
@@ -27,21 +27,9 @@ body {
 }
 
 .topnav{
-    float: right;
     margin: 15px;
     margin-top: 30px;
 }
-
-#topnav_Index{
-    right: ;
-}
-#topnav_Portfolio{
-    right: ;
-}
-#topnav_Contact{
-    right: ;
-}
-
 
 a{
     text-decoration: none;
@@ -71,12 +59,26 @@ img {
 
 }
 
+input[type=text], input[type=email], textarea{
+    width: 96%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-color: #ccc;
+    border-style: solid;
+    background: #fff;
+}
 
+#msgBox {
+    height: 175px;
+    border-width: 2px;
+}
 
 /* Testing area */
 
 #testWrap {
     display: flex;
+    justify-content: center;
 }
 
 #midDimWrap {
@@ -90,6 +92,6 @@ img {
 #midDim{
     margin-top: 38px;
     padding: 30px;
-    width: 960px;
+    width: 901px;
     background-color: #fff;
 }

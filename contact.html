@@ -11,15 +11,25 @@
 <body>
     <!--Shared naigation header-->
     <div class="navHead">
-        <header>Mason Ashlock</header>
-        <a id="topnav_Index" class="topnav" href="index.html">About</a>
-        <a id="topnav_Portfolio" class="topnav" href="portfolio.html">Portfolio</a>
-        <a id="topnav_Contact" class="topnav" href="contact.html">Contact</a>
-    </div>   
+        <div id="testWrap">
+            <header>Mason Ashlock</header>
+            <a class="topnav" href="index.html">About</a>
+            <a class="topnav" href="portfolio.html">Portfolio</a>
+            <a class="topnav" href="contact.html">Contact</a>
+        </div>
+    </div>    
         <!-- -->
         <div id="midDimWrap">
             <div id="midDim">
                 <h1>Contact Me</h1>
+                <form>
+                    Name<br>
+                    <input type="text" placeholder="Your name" name="name"><br>
+                    Email<br>
+                    <input type="email" placeholder="Your email" name="emailAddress"><br>
+                    Message
+                    <textarea id="msgBox" name="message"></textarea>
+                </form>
             </div>
         </div>
 
